@@ -2,16 +2,16 @@ Various info and examples for Check Point automation
 
 ### Documentation Links:
 
-API Documentation links:
+API Documentation links:  
 	- Mgmt API (policy / blade management): <https://sc1.checkpoint.com/documents/latest/APIs/index.html>
 	- Gaia API (Gateway OS settings): <https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html>
 
-Developer Resources:
+Developer Resources:  
 	- <https://developer.checkpoint.com/>
 	- Check Point CloudGuard Network Repository Overview: <https://github.com/CheckPointSW/CloudGuardIaaS>
 
-IAC providers:
--Ansible: 
+IAC providers:  
+-Ansible:  
     -<https://github.com/CheckPointSW/cpAnsible>
     -<https://docs.ansible.com/ansible/latest/collections/check_point/mgmt/index.html>
 -Terraform: <https://registry.terraform.io/providers/CheckPointSW/checkpoint/latest>
