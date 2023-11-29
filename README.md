@@ -7,14 +7,14 @@ API Documentation links:
 	- Gaia API (Gateway OS settings): <https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html>
 
 Developer Resources:  
-	- <https://developer.checkpoint.com/>
-	- Check Point CloudGuard Network Repository Overview: <https://github.com/CheckPointSW/CloudGuardIaaS>
+- <https://developer.checkpoint.com/>
+- Check Point CloudGuard Network Repository Overview: <https://github.com/CheckPointSW/CloudGuardIaaS>
 
 IAC providers:  
--Ansible:  
-    -<https://github.com/CheckPointSW/cpAnsible>
-    -<https://docs.ansible.com/ansible/latest/collections/check_point/mgmt/index.html>
--Terraform: <https://registry.terraform.io/providers/CheckPointSW/checkpoint/latest>
+- Ansible:  
+    - <https://github.com/CheckPointSW/cpAnsible>
+    - <https://docs.ansible.com/ansible/latest/collections/check_point/mgmt/index.html>
+- Terraform: <https://registry.terraform.io/providers/CheckPointSW/checkpoint/latest>
 
 Check Point Main Github: <https://github.com/CheckPointSW>
 
