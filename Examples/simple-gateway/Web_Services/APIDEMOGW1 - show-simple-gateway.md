@@ -1,13 +1,14 @@
-API call: show-simple-gateway
+###API call: show-simple-gateway
 
 Body:
-
+```
 {
   "name" : "APIDEMOGW1"
 }
+```
 
 Successful results:
-
+```
 {
     "uid": "9f1072de-62d8-44d4-bb23-923516a123bc",
     "name": "APIDEMOGW1",
@@ -272,3 +273,4 @@ Successful results:
         "clone": "not_supported"
     }
 }
+```

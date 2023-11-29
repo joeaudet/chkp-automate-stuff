@@ -1,9 +1,11 @@
-API call: add-simple-gateway (this example has topology set to a network group upon creation)
+###API call: add-simple-gateway
+- This example has topology set to a network group upon creation
 
 Body:
+```
 {
   "name" : "APIDEMOGW1",
-  "color" : "yellow",
+  "color" : "black",
   "ipv4-address" : "192.168.14.184",
   "version" : "R81.20",
   "one-time-password" : "otp123",
@@ -43,8 +45,10 @@ Body:
             "security-zone": false
   } ]
 }
+```
 
 Successful Result:
+```
 {
     "uid": "3fa57146-8d78-46b9-92e2-54daf03f5a31",
     "name": "APIDEMOGW1",
@@ -310,3 +314,4 @@ Successful Result:
         "clone": "not_supported"
     }
 }
+```
