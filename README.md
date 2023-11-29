@@ -3,8 +3,8 @@ Various info and examples for Check Point automation
 ### Documentation Links:
 
 API Documentation links:  
-	- Mgmt API (policy / blade management): <https://sc1.checkpoint.com/documents/latest/APIs/index.html>
-	- Gaia API (Gateway OS settings): <https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html>
+- Mgmt API (policy / blade management): <https://sc1.checkpoint.com/documents/latest/APIs/index.html>
+- Gaia API (Gateway OS settings): <https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html>
 
 Developer Resources:  
 - <https://developer.checkpoint.com/>
