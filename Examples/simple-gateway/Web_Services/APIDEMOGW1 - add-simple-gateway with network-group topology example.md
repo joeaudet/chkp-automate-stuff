@@ -1,5 +1,18 @@
 ### API call: add-simple-gateway
-- This example has topology set to a network group upon creation
+Configured settings:
+- FW enabled
+- IPSEC VPN enabled
+- Application Control enabled
+- URL filtering enabled
+- IPS enabled
+- Anti Virus enabled
+- Anti Bot enabled
+- Threat Emulation enabled
+- 2 interfaces
+    - eth0 - external interface
+    - eth1 - internal interface
+        - Topology defined to use specific network group (DEMO-ANTI-SPOOF-NETWORK-GROUP)
+- NAT behind internal interfaces
 
 Smartconsole settings screenshots:  
 ![Screenshot of Check Point SmartConsole showing a simple gateway network management screen](/assets/simple-gateway-network-management_1.jpg)
