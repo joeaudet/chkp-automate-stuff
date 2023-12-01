@@ -15,8 +15,8 @@ Configured settings:
 - NAT behind internal interfaces
 
 Smartconsole settings screenshots:  
-![Screenshot of Check Point SmartConsole showing a simple gateway network management screen](/assets/simple-gateway-network-management_1.jpg)
-![Screenshot of Check Point SmartConsole showing a simple gateway network management screen with 2 additional levels exposed](/assets/simple-gateway-network-management_2.jpg)
+![Screenshot of Check Point SmartConsole showing a simple gateway network management screen](/assets/images/simple-gateway-network-management_1.jpg)
+![Screenshot of Check Point SmartConsole showing a simple gateway network management screen with 2 additional levels exposed](/assets/images/simple-gateway-network-management_2.jpg)
 
 Body:
 ```
