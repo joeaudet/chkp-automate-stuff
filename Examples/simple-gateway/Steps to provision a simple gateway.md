@@ -1,8 +1,12 @@
 Items needed to provision a simple gateway through the [CP Mgmt API](https://sc1.checkpoint.com/documents/latest/APIs/index.html):
 - Physical appliance
+    - [ ] Appliance connected, and powered on
     - [ ] IP used for mgmt assigned to interface
     - [ ] Mgmt Server able to reach appliance (routing needs to be setup)
-    - [ ] FTW completed - CLISH, expert, or [Gaia API](https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html)
-    - [ ] One Time Password for establishing SIC
+    - [ ] First Time Wizard (FTW) completed - CLISH, expert, or [Gaia API](https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html)
+    - [ ] One Time Password - Used by Mgmt Server for establishing SIC (created when running FTW)
 - Cloud Guard Network appliance
-    - [ ] 
+    - [ ] Virtual Appliance deployed through cloud provider marketplace, or through some other automation - with FTW completed and OTP SIC key setup
+    - [ ] IP used for mgmt assigned to interface
+    - [ ] Mgmt Server able to reach appliance (routing needs to be setup)
+    - [ ] One Time Password - Used by Mgmt Server for establishing SIC (created when running FTW)
