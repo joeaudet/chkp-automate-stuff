@@ -10,3 +10,5 @@ Settings not configured by default on a Check Point appliance that are common to
 ###Optional Items
 - Backup local admin account
 - TACACS / RADIUS
+
+The above settings can be configured through CLISH, [Gaia API](https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html)
