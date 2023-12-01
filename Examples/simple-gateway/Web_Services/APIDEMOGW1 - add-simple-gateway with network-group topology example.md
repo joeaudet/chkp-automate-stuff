@@ -1,4 +1,4 @@
-###API call: add-simple-gateway
+### API call: add-simple-gateway
 - This example has topology set to a network group upon creation
 
 Smartconsole settings screenshots:  
