@@ -1,6 +1,7 @@
 ###API call: add-simple-gateway
 - This example has topology set to a network group upon creation
 
+Smartconsole settings screenshots:  
 ![Screenshot of Check Point SmartConsole showing a simple gateway network management screen](/assets/simple-gateway-network-management_1.jpg)
 ![Screenshot of Check Point SmartConsole showing a simple gateway network management screen with 2 additional levels exposed](/assets/simple-gateway-network-management_2.jpg)
 
