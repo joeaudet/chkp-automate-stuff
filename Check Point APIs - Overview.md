@@ -10,7 +10,7 @@ Check Point API Management call sequence:
 - If anything created or changed, publish
 - Logout
 
-Anything not an appliance OS setting is done through [Mgmt API](https://sc1.checkpoint.com/documents/latest/APIs/index.html)
+Anything not an appliance OS setting is done through [Mgmt API](https://sc1.checkpoint.com/documents/latest/APIs/index.html)  
 OS Settings are done through [Gaia API](https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html) directly to security appliance
 
 
