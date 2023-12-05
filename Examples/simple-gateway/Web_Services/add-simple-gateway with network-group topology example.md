@@ -12,11 +12,12 @@ Configured settings:
     - eth0 - external interface
     - eth1 - internal interface
         - Topology defined to use specific network group (DEMO-ANTI-SPOOF-NETWORK-GROUP)
+    - Anti spoofing enabled and set to prevent
 - NAT behind internal interfaces
 
 Smartconsole settings screenshots:  
-![Screenshot of Check Point SmartConsole showing a simple gateway network management screen](/assets/images/simple-gateway-network-management_1.jpg)
-![Screenshot of Check Point SmartConsole showing a simple gateway network management screen with 2 additional levels exposed](/assets/images/simple-gateway-network-management_2.jpg)
+![Screenshot of Check Point SmartConsole showing a simple gateway network management screen](/assets/images/simple-gateway-topology-specific-network_1.jpg)
+![Screenshot of Check Point SmartConsole showing a simple gateway network management screen with 2 additional levels exposed](/assets/images/simple-gateway-topology-specific-network_2.jpg)
 
 Body:
 ```
@@ -63,6 +64,9 @@ Body:
   } ]
 }
 ```
+
+### Make sure SIC is communicating:
+`"sic-state": "communicating"`
 
 Successful Result:
 ```

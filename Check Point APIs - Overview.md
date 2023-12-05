@@ -6,6 +6,7 @@ Check Point API Management call sequence:
   - Headers:
     - Content-Type : application/json
     - X-chkp-sid : sid from login (string)
+1. Some commands will return a task-id: Run `show-task task-id` API call to get output from task
 1. If anything created or changed, publish
 1. Logout
 
