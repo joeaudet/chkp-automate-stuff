@@ -12,9 +12,12 @@ Developer Resources:
 
 IAC providers:  
 - Ansible:  
+    - Getting started with Ansible: <https://support.checkpoint.com/results/sk/sk114661>
     - <https://github.com/CheckPointSW/cpAnsible>
     - <https://docs.ansible.com/ansible/latest/collections/check_point/mgmt/index.html>
 - Terraform: <https://registry.terraform.io/providers/CheckPointSW/checkpoint/latest>
+
+Check Point AWS CloudFormation Templates: <https://support.checkpoint.com/results/sk/sk111013>
 
 Check Point Main Github: <https://github.com/CheckPointSW>
 

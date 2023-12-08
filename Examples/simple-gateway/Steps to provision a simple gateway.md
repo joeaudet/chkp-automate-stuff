@@ -16,5 +16,5 @@ Steps to provision a simple gateway:
 ## Add gateway to management
 
 - [CP Mgmt API](https://sc1.checkpoint.com/documents/latest/APIs/index.html):
-- [Add a gateway using the internal interface subnet and mask topology](/examples/simple-gateway/Web_Services/add-simple-gateway%20with%20interface%20subnet%20and%20mask%20topology%20example.md)
-- [Add a gateway with a specific network group topology](/examples/simple-gateway/Web_Services/APIDEMOGW1%20-%20add-simple-gateway%20with%20network-group%20topology%20example.md)
+- [Add a gateway using the internal interface subnet and mask topology](/examples/simple-gateway/web-services/add-simple-gateway%20with%20interface%20subnet%20and%20mask%20topology%20example.md)
+- [Add a gateway with a specific network group topology](/examples/simple-gateway/web-services/APIDEMOGW1%20-%20add-simple-gateway%20with%20network-group%20topology%20example.md)

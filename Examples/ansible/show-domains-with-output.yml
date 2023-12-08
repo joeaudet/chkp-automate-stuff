@@ -1,0 +1,12 @@
+---
+- name: show domains
+  hosts: checkpoint
+  connection: httpapi
+  gather_facts: true
+  tasks:
+    - name: Show Domains
+      check_point.mgmt.cp_mgmt_domain_facts:
+        details_level: standard
+      register: output
+    - debug:
+        msg:  "{{ output }}"
