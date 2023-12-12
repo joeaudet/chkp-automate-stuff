@@ -1,5 +1,9 @@
 Various info and examples for Check Point automation  
 
+Check Point Main Github: <https://github.com/CheckPointSW>
+
+Check Point AWS CloudFormation Templates: <https://support.checkpoint.com/results/sk/sk111013>
+
 ### Documentation Links:
 
 API Documentation links:  
@@ -22,10 +26,6 @@ IAC providers:
     - <https://github.com/CheckPointSW/cpAnsible>
     - <https://docs.ansible.com/ansible/latest/collections/check_point/mgmt/index.html>
 - Terraform: <https://registry.terraform.io/providers/CheckPointSW/checkpoint/latest>
-
-Check Point AWS CloudFormation Templates: <https://support.checkpoint.com/results/sk/sk111013>
-
-Check Point Main Github: <https://github.com/CheckPointSW>
 
 Check Point Mgmt API - Python SDK: <https://github.com/CheckPointSW/cp_mgmt_api_python_sdk>
 
