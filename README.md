@@ -4,7 +4,13 @@ Various info and examples for Check Point automation
 
 API Documentation links:  
 - Mgmt API (policy / blade management): <https://sc1.checkpoint.com/documents/latest/APIs/index.html>
+    - Mgmt API Postman Collections: <https://community.checkpoint.com/t5/API-CLI-Discussion/Postman-Collections-links-to-all-available-and-the-basics/td-p/40923>
 - Gaia API (Gateway OS settings): <https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html>
+    - Gaia API Postman Collection: <https://support.checkpoint.com/results/download/92463>
+- CME API: <https://app.swaggerhub.com/apis-docs/Check-Point/cme-api/v1#/>
+    - CME API Postman Collection: <https://github.com/CheckPointSW/CloudGuardIaaS/tree/master/common/cme_api_postman>
+
+Cloud Management Extension (CME) admin guide: <https://sc1.checkpoint.com/documents/IaaS/WebAdminGuides/EN/CP_CME/Content/Topics-CME/Overview.htm?tocpath=_____3>
 
 Developer Resources:  
 - <https://developer.checkpoint.com/>
@@ -24,9 +30,5 @@ Check Point Main Github: <https://github.com/CheckPointSW>
 Check Point Mgmt API - Python SDK: <https://github.com/CheckPointSW/cp_mgmt_api_python_sdk>
 
 Export/Import Policy Package (requires python SDK): <https://github.com/CheckPointSW/ExportImportPolicyPackage>
-
-CME API: <https://app.swaggerhub.com/apis-docs/Check-Point/cme-api/v1#/>
-
-Postman Collections: <https://community.checkpoint.com/t5/API-CLI-Discussion/Postman-Collections-links-to-all-available-and-the-basics/td-p/40923>
 
 Checkmates Codehub (community discussions / examples): <https://community.checkpoint.com/t5/API-CLI-Discussion/bd-p/codehub>
