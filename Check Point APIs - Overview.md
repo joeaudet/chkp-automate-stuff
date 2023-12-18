@@ -7,7 +7,9 @@ Check Point API Management call sequence:
     - Content-Type : application/json
     - X-chkp-sid : sid from login (string)
 - Some commands will return a task-id: Run `show-task task-id` API call to get output from task
-- If anything created or changed, publish
+- If anything created or changed:
+  - If you want to keep: Run `publish` API call
+  - If you want to remove the changes: Run `discard` API call
 - Logout
 
 Anything not an appliance OS setting is done through [Mgmt API](https://sc1.checkpoint.com/documents/latest/APIs/index.html)  

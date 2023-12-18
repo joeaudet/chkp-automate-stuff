@@ -10,7 +10,7 @@ API Documentation links:
 - Mgmt API (policy / blade management): <https://sc1.checkpoint.com/documents/latest/APIs/index.html>
     - Mgmt API Postman Collections: <https://community.checkpoint.com/t5/API-CLI-Discussion/Postman-Collections-links-to-all-available-and-the-basics/td-p/40923>
 - Gaia API (Gateway OS settings): <https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html>
-    - Gaia API Postman Collection: <https://support.checkpoint.com/results/download/92463>
+    - Gaia API Postman Collection: <https://github.com/CheckPointSW/CloudGuardIaaS/tree/master/common/cme_api_postman>
 - CME API: <https://app.swaggerhub.com/apis-docs/Check-Point/cme-api/v1#/>
     - CME API Postman Collection: <https://github.com/CheckPointSW/CloudGuardIaaS/tree/master/common/cme_api_postman>
 
