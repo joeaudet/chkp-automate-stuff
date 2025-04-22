@@ -37,4 +37,6 @@ Checkmates Codehub (community discussions / examples): <https://community.checkp
 - These features need Mgmt and Gateways at version R81.20 or above
     - [External Network Feeds](https://sc1.checkpoint.com/documents/R81.20/WebAdminGuides/EN/CP_R81.20_SecurityManagement_AdminGuide/Content/Topics-SECMG/Network_Feed.htm)
 - These features need Mgmt and Gateways at version R82 or above and Need to use GAIA API v1.8
-    - [Dynamic Layer in Access Control Policy](https://support.checkpoint.com/results/sk/sk182252) - 
+    - [Dynamic Layer in Access Control Policy](https://support.checkpoint.com/results/sk/sk182252)
+        - [show-dynamic-layer](https://sc1.checkpoint.com/documents/latest/GaiaAPIs/#web/show-dynamic-layer~v1.8%20)
+        - [set-dynamic-content](https://sc1.checkpoint.com/documents/latest/GaiaAPIs/#web/set-dynamic-content~v1.8%20)
