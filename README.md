@@ -41,3 +41,8 @@ Checkmates Codehub (community discussions / examples): <https://community.checkp
         - [show-dynamic-layers](https://sc1.checkpoint.com/documents/latest/GaiaAPIs/#web/show-dynamic-layers~v1.8%20)
         - [show-dynamic-layer](https://sc1.checkpoint.com/documents/latest/GaiaAPIs/#web/show-dynamic-layer~v1.8%20)
         - [set-dynamic-content](https://sc1.checkpoint.com/documents/latest/GaiaAPIs/#web/set-dynamic-content~v1.8%20)
+
+### Reference Diagrams 
+- Right click, Save As - they are XML files to be used with: [draw.io](https://draw.io)
+- [Check Point Management Reference Diagrams](/assets/diagrams/Check%20Point%20-%20Mgmt%20Reference%20Diagrams.drawio)
+- [Check Point API Reference Diagrams](/assets/diagrams/Check%20Point%20-%20API%20Reference%20Diagrams.drawio)

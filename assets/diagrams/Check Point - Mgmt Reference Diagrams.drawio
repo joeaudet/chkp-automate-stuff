@@ -1,0 +1,790 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9" pages="7">
+  <diagram id="ovvnWdYdoeAETBSTQXLI" name="About">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9LwTxyzI3P8AlklJ0Ga7-3" value="Diagram Info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="208" y="490" width="435" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9LwTxyzI3P8AlklJ0Ga7-4" value="&lt;b&gt;Creator:&lt;/b&gt; Joe Audet" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="9LwTxyzI3P8AlklJ0Ga7-3">
+          <mxGeometry y="30" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9LwTxyzI3P8AlklJ0Ga7-5" value="&lt;b&gt;Purpose:&lt;/b&gt; Illustrate Check Point Management database components" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="9LwTxyzI3P8AlklJ0Ga7-3">
+          <mxGeometry y="60" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9LwTxyzI3P8AlklJ0Ga7-6" value="&lt;b&gt;Modified Date:&lt;/b&gt; 2025JUN12" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="9LwTxyzI3P8AlklJ0Ga7-3">
+          <mxGeometry y="90" width="435" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="MDS - Overview" id="-Eyem1xn7_MqYwJX8j8S">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tXP9JouzaZCVozRyXHis-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="770" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-30" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=none;fillColor=#009900;fillStyle=solid;opacity=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="437" width="770" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-31" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=none;fillColor=#330066;opacity=10;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="257" width="770" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-29" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=none;fillStyle=auto;fillColor=#0000FF;opacity=10;strokeWidth=3;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="617" width="770" height="160" as="geometry" />
+        </mxCell>
+        <UserObject label="Multi Domain Management (MDM) Server" link="https://sc1.checkpoint.com/documents/R82/WebAdminGuides/EN/CP_R82_Multi-DomainSecurityManagement_AdminGuide/Content/Topics-MDSG/Getting-Started.htm" linkTarget="_blank" id="tXP9JouzaZCVozRyXHis-2">
+          <mxCell style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
+            <mxGeometry x="250" y="850" width="350" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="tXP9JouzaZCVozRyXHis-7" value="Default login is to the &#39;System Data&#39; domain if the &#39;DOMAIN&#39; argument is not included during login, OR specify &#39;SYSTEM DATA&#39;" style="text;strokeColor=#3A5431;align=center;fillColor=#FFD966;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;fillStyle=auto;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="704" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXP9JouzaZCVozRyXHis-11" value="Manage administrators, domains, admin permissions and other system objects like API enablement and permissions." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="629" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tXP9JouzaZCVozRyXHis-12" value="" style="group;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="330" y="709" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tXP9JouzaZCVozRyXHis-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="tXP9JouzaZCVozRyXHis-12" vertex="1">
+          <mxGeometry width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tXP9JouzaZCVozRyXHis-4" value="&#39;System Data&#39; Domain" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="tXP9JouzaZCVozRyXHis-12" vertex="1">
+          <mxGeometry x="27.5" y="10" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tXP9JouzaZCVozRyXHis-14" value="Manage global objects, access and threat prevention policies. Process inheritance operations from global to associated domains." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="450" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-1" value="Provide &#39;DOMAIN&#39; argument of &#39;GLOBAL&#39; during login" style="text;strokeColor=#3A5431;align=center;fillColor=#FFD966;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;fillStyle=auto;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="530" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-24" value="Contains the various components used to manage security gateways, policies, objects. Contains logs for this tenant. Isolated from other tenant domains. Can only interact with global domain objects." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="270" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-25" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="330" y="355" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="oXjCdW8-D8wp-TDb_Kbu-25" vertex="1">
+          <mxGeometry width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-23" value="&#39;CUSTOMER&#39; Domain" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="oXjCdW8-D8wp-TDb_Kbu-25" vertex="1">
+          <mxGeometry x="27.5" y="10" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-26" value="Provide &#39;DOMAIN&#39; argument of &#39;DOMAIN NAME&#39; during login" style="text;strokeColor=#3A5431;align=center;fillColor=#FFD966;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;fillStyle=auto;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="355" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-27" value="An MDM can have multiple customer domains" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=NW;callStyle=line;fontSize=14;fontColor=#000000;align=left;verticalAlign=top;strokeColor=#666666;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="130" y="255" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-28" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="300" y="70" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-18" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Warning&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.warning;" parent="oXjCdW8-D8wp-TDb_Kbu-28" vertex="1">
+          <mxGeometry width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-19" value="Your session-id can only be connected to (1) domain at a time" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=19;fontStyle=1" parent="oXjCdW8-D8wp-TDb_Kbu-28" vertex="1">
+          <mxGeometry x="5" y="30" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tXP9JouzaZCVozRyXHis-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="330" y="530" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tXP9JouzaZCVozRyXHis-6" value="&#39;Global&#39; Domain" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="357.5" y="540" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-32" value="An MDM server hosts the above &#39;object containers&#39;, each containing parts and pieces used to manage a multi-tenant environment." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="800" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-33" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=NW;callStyle=line;fontSize=17;fontColor=#000000;align=left;verticalAlign=top;strokeColor=#666666;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="130" y="450" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oXjCdW8-D8wp-TDb_Kbu-34" value="Global objects and policies can be assigned&#xa;to &#39;CUSTOMER&#39; domains for inheritance" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="130" y="437" width="280" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="MDS - Nested" id="zTzcJCCU-PuSbmmwrn5B">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="IhJje9fTIurRZTmrsr5C-0" />
+        <mxCell id="IhJje9fTIurRZTmrsr5C-1" parent="IhJje9fTIurRZTmrsr5C-0" />
+        <mxCell id="IhJje9fTIurRZTmrsr5C-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-1">
+          <mxGeometry x="40" y="40" width="770" height="840" as="geometry" />
+        </mxCell>
+        <UserObject label="Multi Domain Management (MDM) Server" link="https://sc1.checkpoint.com/documents/R82/WebAdminGuides/EN/CP_R82_Multi-DomainSecurityManagement_AdminGuide/Content/Topics-MDSG/Getting-Started.htm" linkTarget="_blank" id="IhJje9fTIurRZTmrsr5C-6">
+          <mxCell style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-1">
+            <mxGeometry x="250" y="850" width="350" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="IhJje9fTIurRZTmrsr5C-9" value="" style="group;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="IhJje9fTIurRZTmrsr5C-1">
+          <mxGeometry x="320" y="720" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IhJje9fTIurRZTmrsr5C-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-9">
+          <mxGeometry width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IhJje9fTIurRZTmrsr5C-11" value="&#39;System Data&#39; Domain" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-9">
+          <mxGeometry x="27.5" y="10" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IhJje9fTIurRZTmrsr5C-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-1">
+          <mxGeometry x="320" y="120" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IhJje9fTIurRZTmrsr5C-24" value="&#39;Global&#39; Domain" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-1">
+          <mxGeometry x="347.5" y="130" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tK7ARJ95A4dnXZJ2Mmop-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-1">
+          <mxGeometry x="130" y="230" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tK7ARJ95A4dnXZJ2Mmop-17" value="&#39;Customer&#39; Domain" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-1">
+          <mxGeometry x="157.5" y="240" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tK7ARJ95A4dnXZJ2Mmop-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-1">
+          <mxGeometry x="130" y="300" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tK7ARJ95A4dnXZJ2Mmop-21" value="&#39;Customer&#39; Domain" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-1">
+          <mxGeometry x="157.5" y="310" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tK7ARJ95A4dnXZJ2Mmop-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-1">
+          <mxGeometry x="130" y="370" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tK7ARJ95A4dnXZJ2Mmop-23" value="&#39;Customer&#39; Domain" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-1">
+          <mxGeometry x="157.5" y="380" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tK7ARJ95A4dnXZJ2Mmop-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IhJje9fTIurRZTmrsr5C-1" source="IhJje9fTIurRZTmrsr5C-23" target="tK7ARJ95A4dnXZJ2Mmop-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="240" as="sourcePoint" />
+            <mxPoint x="510" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tK7ARJ95A4dnXZJ2Mmop-27" value="Inheritance of GLOBAL policies and objects is called &#39;assignment&#39; in Check Point. This is controlled on a &#39;per DOMAIN&#39; basis." style="text;strokeColor=#d79b00;align=center;fillColor=#ffcd28;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;gradientColor=#ffa500;" vertex="1" parent="IhJje9fTIurRZTmrsr5C-1">
+          <mxGeometry x="430" y="190" width="240" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Global Domain" id="bxpiHsrSum3RYljxDHVN">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="HTQc5uqSaC7Zh4o0XzEG-0" />
+        <mxCell id="HTQc5uqSaC7Zh4o0XzEG-1" parent="HTQc5uqSaC7Zh4o0XzEG-0" />
+        <mxCell id="HTQc5uqSaC7Zh4o0XzEG-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" parent="HTQc5uqSaC7Zh4o0XzEG-1" vertex="1">
+          <mxGeometry x="40" y="40" width="770" height="840" as="geometry" />
+        </mxCell>
+        <UserObject label="Global Domain" link="https://sc1.checkpoint.com/documents/R82/WebAdminGuides/EN/CP_R82_Multi-DomainSecurityManagement_AdminGuide/Content/Topics-MDSG/Global-Domain.htm?tocpath=Global%20Management%7CThe%20Global%20Domain%7C_____0#The_Global_Domain" linkTarget="_blank" id="HTQc5uqSaC7Zh4o0XzEG-6">
+          <mxCell style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="HTQc5uqSaC7Zh4o0XzEG-1" vertex="1">
+            <mxGeometry x="250" y="850" width="350" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HTQc5uqSaC7Zh4o0XzEG-25" value="Manage global objects, access and threat prevention policies. Process inheritance operations from global to associated domains." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HTQc5uqSaC7Zh4o0XzEG-1" vertex="1">
+          <mxGeometry x="250" y="800" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-0" value="" style="group;fontColor=#FFFFFF;" parent="HTQc5uqSaC7Zh4o0XzEG-1" vertex="1" connectable="0">
+          <mxGeometry x="60" y="160" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="LMEXfKcG8HtsTZYmZqys-0" vertex="1">
+          <mxGeometry width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-2" value="Global&amp;nbsp;&lt;div&gt;Access Control Policies&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="LMEXfKcG8HtsTZYmZqys-0" vertex="1">
+          <mxGeometry x="28.809523809523814" y="10" width="162.38095238095238" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-6" value="" style="group;fontColor=#FFFFFF;" parent="HTQc5uqSaC7Zh4o0XzEG-1" vertex="1" connectable="0">
+          <mxGeometry x="303" y="160" width="245" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="LMEXfKcG8HtsTZYmZqys-6" vertex="1">
+          <mxGeometry width="245.00000000000003" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-8" value="Global&amp;nbsp;&lt;div&gt;Threat Prevention Policies&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="LMEXfKcG8HtsTZYmZqys-6" vertex="1">
+          <mxGeometry x="32.083333333333336" y="10" width="180.83333333333331" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-9" value="" style="group;fontColor=#FFFFFF;" parent="HTQc5uqSaC7Zh4o0XzEG-1" vertex="1" connectable="0">
+          <mxGeometry x="570" y="160" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="LMEXfKcG8HtsTZYmZqys-9" vertex="1">
+          <mxGeometry width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-11" value="Global&amp;nbsp;&lt;div&gt;Objects&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="LMEXfKcG8HtsTZYmZqys-9" vertex="1">
+          <mxGeometry x="28.809523809523814" y="10" width="162.38095238095238" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="HTQc5uqSaC7Zh4o0XzEG-1" vertex="1">
+          <mxGeometry x="570" y="230" width="220" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-15" value="Global Hosts" style="rounded=0;whiteSpace=wrap;html=1;" parent="HTQc5uqSaC7Zh4o0XzEG-1" vertex="1">
+          <mxGeometry x="570" y="260" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-16" value="Global Networks" style="rounded=0;whiteSpace=wrap;html=1;" parent="HTQc5uqSaC7Zh4o0XzEG-1" vertex="1">
+          <mxGeometry x="570" y="290" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-17" value="Global VPN Communities" style="rounded=0;whiteSpace=wrap;html=1;" parent="HTQc5uqSaC7Zh4o0XzEG-1" vertex="1">
+          <mxGeometry x="570" y="350" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LMEXfKcG8HtsTZYmZqys-18" value="Global Groups" style="rounded=0;whiteSpace=wrap;html=1;" parent="HTQc5uqSaC7Zh4o0XzEG-1" vertex="1">
+          <mxGeometry x="570" y="320" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6PSZ6_kKGPprlWm7nVxN-0" value="This list is not a complete list of all object types" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HTQc5uqSaC7Zh4o0XzEG-1">
+          <mxGeometry x="590" y="520" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Domain Level" id="h1nAVpfHLB4rZk-qrDY0">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Nzc84ikHdEjh7kkf6i-0-0" />
+        <mxCell id="Nzc84ikHdEjh7kkf6i-0-1" parent="Nzc84ikHdEjh7kkf6i-0-0" />
+        <mxCell id="Nzc84ikHdEjh7kkf6i-0-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="40" y="40" width="770" height="840" as="geometry" />
+        </mxCell>
+        <UserObject label="Domain&lt;div&gt;(CMA - Customer Mgmt Add-On - Legacy term)&lt;/div&gt;" link="https://sc1.checkpoint.com/documents/R82/WebAdminGuides/EN/CP_R82_Multi-DomainSecurityManagement_AdminGuide/Content/Topics-MDSG/Managing-Domains.htm?tocpath=Managing%20Domains%7C_____0" linkTarget="_blank" id="Nzc84ikHdEjh7kkf6i-0-3">
+          <mxCell style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+            <mxGeometry x="210" y="840" width="430" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Nzc84ikHdEjh7kkf6i-0-4" value="Manage domain level objects, access and threat prevention policies. Monitor and manage security gateways." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="250" y="800" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nzc84ikHdEjh7kkf6i-0-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;arcSize=5;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="570" y="240" width="220" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Nzc84ikHdEjh7kkf6i-0-15" value="Hosts&lt;div&gt;(IP Address based object)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="570" y="356" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nzc84ikHdEjh7kkf6i-0-16" value="Networks" style="rounded=0;whiteSpace=wrap;html=1;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="570" y="386" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nzc84ikHdEjh7kkf6i-0-17" value="VPN Communities" style="rounded=0;whiteSpace=wrap;html=1;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="570" y="476" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nzc84ikHdEjh7kkf6i-0-18" value="Groups" style="rounded=0;whiteSpace=wrap;html=1;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="570" y="446" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EJ_rQtC9J9pnmlZAFpI_-0" value="Services" style="rounded=0;whiteSpace=wrap;html=1;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="570" y="506" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EJ_rQtC9J9pnmlZAFpI_-1" value="Identities" style="rounded=0;whiteSpace=wrap;html=1;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="570" y="536" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nzc84ikHdEjh7kkf6i-0-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="570" y="251" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Nzc84ikHdEjh7kkf6i-0-13" value="&lt;div&gt;Objects&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="598.8095238095239" y="260" width="162.38095238095238" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GaYAWTQ-a3qHsLs24hTC-0" value="Gateways &amp;amp; Servers&amp;nbsp;&lt;div&gt;(Check Point Host)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="570" y="326" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GaYAWTQ-a3qHsLs24hTC-1" value="This list is not a complete list of all object types" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="590" y="590" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GaYAWTQ-a3qHsLs24hTC-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;arcSize=5;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="60" y="240" width="220" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="GaYAWTQ-a3qHsLs24hTC-3" value="Layers" style="rounded=0;whiteSpace=wrap;html=1;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="60" y="356" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GaYAWTQ-a3qHsLs24hTC-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="60" y="251" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GaYAWTQ-a3qHsLs24hTC-10" value="&lt;div&gt;Policies and Layers&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="88.80952380952385" y="260" width="162.38095238095238" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GaYAWTQ-a3qHsLs24hTC-11" value="Policy Packages" style="rounded=0;whiteSpace=wrap;html=1;" parent="Nzc84ikHdEjh7kkf6i-0-1" vertex="1">
+          <mxGeometry x="60" y="326" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cqn6IOwWEUZtDXQdBy66-0" value="Address Range" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Nzc84ikHdEjh7kkf6i-0-1">
+          <mxGeometry x="570" y="416" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Policy Package" id="CylbBLFlvTALuqlUr_Aa">
+    <mxGraphModel dx="2276" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="wxTNfFCR_jTp9XMrj3uY-0" />
+        <mxCell id="wxTNfFCR_jTp9XMrj3uY-1" parent="wxTNfFCR_jTp9XMrj3uY-0" />
+        <mxCell id="wxTNfFCR_jTp9XMrj3uY-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="40" y="40" width="770" height="840" as="geometry" />
+        </mxCell>
+        <UserObject label="Policy Package" link="https://sc1.checkpoint.com/documents/R82/WebAdminGuides/EN/CP_R82_SecurityManagement_AdminGuide/Content/Topics-SECMG/Working-with-Policy-Packages.htm" linkTarget="_blank" id="wxTNfFCR_jTp9XMrj3uY-3">
+          <mxCell style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+            <mxGeometry x="250" y="850" width="350" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wxTNfFCR_jTp9XMrj3uY-4" value="A policy package is a collection of different types of policies. After installation, the Security GatewayClosed enforces all the policies in the package. A policy package can have one or more policy types." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="245" y="790" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e4MQhlGdaCr-LAgva6wO-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=none;fillColor=#330066;opacity=10;gradientColor=none;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="40" y="84" width="770" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="e4MQhlGdaCr-LAgva6wO-1" value="In SmartConsole, when we see an access layer named &#39;Policy&#39;, it is actually named:&lt;div&gt;POLICY_PACKAGE_NAME Network&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="513.04" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="e4MQhlGdaCr-LAgva6wO-2" value="" style="group" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1" connectable="0">
+          <mxGeometry x="325" y="84" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e4MQhlGdaCr-LAgva6wO-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="e4MQhlGdaCr-LAgva6wO-2" vertex="1">
+          <mxGeometry width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e4MQhlGdaCr-LAgva6wO-4" value="Access Control Layer" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="e4MQhlGdaCr-LAgva6wO-2" vertex="1">
+          <mxGeometry x="27.5" y="10" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e4MQhlGdaCr-LAgva6wO-5" value="Access Layers are where we set L3/L4 access control rules." style="text;strokeColor=#3A5431;align=center;fillColor=#FFD966;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;fillStyle=auto;shadow=1;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="-180" y="112" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U_y8t47FtC_nxFh7vBZQ-29" value="Rule number are dynamically generated when created using Smart Console. Rule number denotes position in processing: top down, left right" style="text;strokeColor=#3A5431;align=center;fillColor=#FFD966;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;fillStyle=auto;shadow=1;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="-180" y="172" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#6F0000;fillColor=#a20025;opacity=10;fontColor=#ffffff;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="40.5" y="325" width="770" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="317.5" y="325" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-3" value="Threat Prevention Layer" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="346.9642857142858" y="335" width="166.07142857142856" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-41" value="" style="group" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1" connectable="0">
+          <mxGeometry x="185.5" y="404" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-33" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-41" vertex="1">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-34" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-41" vertex="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-35" value="Protected Scope" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-41" vertex="1">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-36" value="Protection" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-41" vertex="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-38" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-41" vertex="1">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-40" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-41" vertex="1">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-42" value="In the TP layer, action determines which threat prevention policy is assigned to a gateway, and that policy controls which features are active, along with other settings." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=17.11;dy=22;boundedLbl=1;shadow=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="580" y="319" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-53" value="" style="group" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1" connectable="0">
+          <mxGeometry x="65" y="152" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-44" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-53" vertex="1">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-45" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-53" vertex="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-46" value="SRC" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-53" vertex="1">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-47" value="DST" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-53" vertex="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-48" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-53" vertex="1">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-49" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-53" vertex="1">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-50" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-53" vertex="1">
+          <mxGeometry x="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-51" value="Track" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-53" vertex="1">
+          <mxGeometry x="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-52" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-53" vertex="1">
+          <mxGeometry x="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-54" value="" style="group" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1" connectable="0">
+          <mxGeometry x="65" y="192" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-55" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-54" vertex="1">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-56" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-54" vertex="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-57" value="SRC" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-54" vertex="1">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-58" value="DST" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-54" vertex="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-59" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-54" vertex="1">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-60" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-54" vertex="1">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-61" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-54" vertex="1">
+          <mxGeometry x="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-62" value="Track" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-54" vertex="1">
+          <mxGeometry x="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-63" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-54" vertex="1">
+          <mxGeometry x="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-75" value="Exceptions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="360.5" y="483" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-76" value="Global Exceptions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="360.5" y="513" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-77" value="" style="group" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1" connectable="0">
+          <mxGeometry x="185.5" y="444" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-78" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-77" vertex="1">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-79" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-77" vertex="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-80" value="Protected Scope" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-77" vertex="1">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-81" value="Protection" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-77" vertex="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-82" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-77" vertex="1">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-83" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-77" vertex="1">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-84" value="Threat Prevention policy is used to control features such as IPS, Anti Bot, Anti Virus, Threat Emulation, etc. L7 level functionality. It also controls what IPS signatures are active, in addition to other settings." style="text;strokeColor=#3A5431;align=center;fillColor=#FFD966;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;fillStyle=auto;shadow=1;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="-179.5" y="393" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-85" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#314354;fillColor=#647687;opacity=10;fontColor=#ffffff;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="40.5" y="575" width="770" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-86" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;container=0;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1" connectable="0">
+          <mxGeometry x="313.5" y="575" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-87" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="313.5" y="575" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-88" value="HTTPS Inspection" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="342.9642857142858" y="585" width="166.07142857142856" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-96" value="User supplied CA signing certificate that is deployed to client machines so that they trust the certificates generated by the gateway." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="740" y="569" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-97" value="Trusted Certificate Authorities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="360" y="763" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-119" value="" style="group" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1" connectable="0">
+          <mxGeometry x="90" y="654" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-107" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-119" vertex="1">
+          <mxGeometry x="70" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-108" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-119" vertex="1">
+          <mxGeometry width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-109" value="SRC" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-119" vertex="1">
+          <mxGeometry x="130" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-110" value="DST" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-119" vertex="1">
+          <mxGeometry x="190" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-111" value="Services" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-119" vertex="1">
+          <mxGeometry x="250" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-112" value="Category" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-119" vertex="1">
+          <mxGeometry x="310" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-113" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-119" vertex="1">
+          <mxGeometry x="370" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-114" value="Track" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-119" vertex="1">
+          <mxGeometry x="430" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-115" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-119" vertex="1">
+          <mxGeometry x="550" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-116" value="Certificate" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-119" vertex="1">
+          <mxGeometry x="610" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-117" value="Blade" style="rounded=0;whiteSpace=wrap;html=1;" parent="oAmqMT0auZ50Cq8WMLwA-119" vertex="1">
+          <mxGeometry x="490" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-120" value="In R82, Check Point bypasses certain categories (Finance, Health, Government / Military) by default." style="text;strokeColor=#3A5431;align=center;fillColor=#FFD966;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;fillStyle=auto;shadow=1;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="-179.5" y="593" width="210" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="oAmqMT0auZ50Cq8WMLwA-121" value="In R82, there is a learning mode to help you establish performance baselines and detect pinned certificates to make rollout easier." style="text;strokeColor=#3A5431;align=center;fillColor=#FFD966;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;fillStyle=auto;shadow=1;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="-179.5" y="694" width="210" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="saFNPmPu7J0P-I73xM44-0" value="If on an MDM server, and Global Policy&amp;nbsp; is assigned to the domain, those rules will appear at the top of the policy." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;shadow=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="770" y="67" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="MdvyXaaColcYBrusMK6N-0" value="In SmartConsole, when we see an access layer named &#39;Custom Policy&#39;, it is actually named:&amp;nbsp;&lt;div&gt;POLICY_PACKAGE_NAME Threat Prevention&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="wxTNfFCR_jTp9XMrj3uY-1" vertex="1">
+          <mxGeometry x="490.5" y="240" width="259.5" height="85" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Access Control - Inline Layers" id="jG7i2XF9Rq1n5ZVSrB1S">
+    <mxGraphModel dx="2276" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="MVablnATqZSdwAEzU-RO-0" />
+        <mxCell id="MVablnATqZSdwAEzU-RO-1" parent="MVablnATqZSdwAEzU-RO-0" />
+        <mxCell id="MVablnATqZSdwAEzU-RO-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" parent="MVablnATqZSdwAEzU-RO-1" vertex="1">
+          <mxGeometry x="40" y="40" width="770" height="840" as="geometry" />
+        </mxCell>
+        <UserObject label="Policy Package" link="https://sc1.checkpoint.com/documents/R82/WebAdminGuides/EN/CP_R82_SecurityManagement_AdminGuide/Content/Topics-SECMG/Working-with-Policy-Packages.htm" linkTarget="_blank" id="MVablnATqZSdwAEzU-RO-3">
+          <mxCell style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="MVablnATqZSdwAEzU-RO-1" vertex="1">
+            <mxGeometry x="250" y="850" width="350" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="MVablnATqZSdwAEzU-RO-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=none;fillColor=#330066;opacity=10;gradientColor=none;" parent="MVablnATqZSdwAEzU-RO-1" vertex="1">
+          <mxGeometry x="40" y="84" width="770" height="596" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-6" value="In SmartConsole, when we see an access layer named &#39;Policy&#39;, it is actually named:&lt;div&gt;POLICY_PACKAGE_NAME Network&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="MVablnATqZSdwAEzU-RO-1" vertex="1">
+          <mxGeometry x="513.04" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-7" value="" style="group" parent="MVablnATqZSdwAEzU-RO-1" vertex="1" connectable="0">
+          <mxGeometry x="325" y="84" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="MVablnATqZSdwAEzU-RO-7" vertex="1">
+          <mxGeometry width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-9" value="Access Layer" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FFFFFF;" parent="MVablnATqZSdwAEzU-RO-7" vertex="1">
+          <mxGeometry x="27.5" y="10" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-10" value="Access Layers are where we set L3/L4 access control rules." style="text;strokeColor=#3A5431;align=center;fillColor=#FFD966;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;fillStyle=auto;shadow=1;" parent="MVablnATqZSdwAEzU-RO-1" vertex="1">
+          <mxGeometry x="-180" y="112" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-11" value="Rule number are dynamically generated when created using Smart Console. Rule number denotes position in processing: top down, left right" style="text;strokeColor=#3A5431;align=center;fillColor=#FFD966;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#000000;fillStyle=auto;shadow=1;" parent="MVablnATqZSdwAEzU-RO-1" vertex="1">
+          <mxGeometry x="-180" y="172" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-23" value="" style="group" parent="MVablnATqZSdwAEzU-RO-1" vertex="1" connectable="0">
+          <mxGeometry x="65" y="152" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-24" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-23" vertex="1">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-25" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-23" vertex="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-26" value="SRC" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-23" vertex="1">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-27" value="DST" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-23" vertex="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-28" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-23" vertex="1">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-29" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-23" vertex="1">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-30" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-23" vertex="1">
+          <mxGeometry x="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-31" value="Track" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-23" vertex="1">
+          <mxGeometry x="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-32" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-23" vertex="1">
+          <mxGeometry x="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-33" value="" style="group" parent="MVablnATqZSdwAEzU-RO-1" vertex="1" connectable="0">
+          <mxGeometry x="65" y="192" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-34" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-33" vertex="1">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-35" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-33" vertex="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-36" value="SRC" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-33" vertex="1">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-37" value="DST" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-33" vertex="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-38" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-33" vertex="1">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-39" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-33" vertex="1">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-40" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-33" vertex="1">
+          <mxGeometry x="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-41" value="Track" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-33" vertex="1">
+          <mxGeometry x="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-42" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="MVablnATqZSdwAEzU-RO-33" vertex="1">
+          <mxGeometry x="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVablnATqZSdwAEzU-RO-73" value="If on an MDM server, and Global Policy&amp;nbsp; is assigned to the domain, those rules will appear at the top of the policy." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;shadow=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="MVablnATqZSdwAEzU-RO-1" vertex="1">
+          <mxGeometry x="770" y="67" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=none;fillColor=#330066;opacity=40;gradientColor=none;" parent="MVablnATqZSdwAEzU-RO-1" vertex="1">
+          <mxGeometry x="75" y="270" width="725" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lULRKE1pPwfjQras7DfU-0" value="" style="group" parent="MVablnATqZSdwAEzU-RO-1" vertex="1" connectable="0">
+          <mxGeometry x="75" y="310" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lULRKE1pPwfjQras7DfU-1" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="lULRKE1pPwfjQras7DfU-0" vertex="1">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lULRKE1pPwfjQras7DfU-2" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="lULRKE1pPwfjQras7DfU-0" vertex="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lULRKE1pPwfjQras7DfU-3" value="SRC" style="rounded=0;whiteSpace=wrap;html=1;" parent="lULRKE1pPwfjQras7DfU-0" vertex="1">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lULRKE1pPwfjQras7DfU-4" value="DST" style="rounded=0;whiteSpace=wrap;html=1;" parent="lULRKE1pPwfjQras7DfU-0" vertex="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lULRKE1pPwfjQras7DfU-5" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="lULRKE1pPwfjQras7DfU-0" vertex="1">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lULRKE1pPwfjQras7DfU-6" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;" parent="lULRKE1pPwfjQras7DfU-0" vertex="1">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lULRKE1pPwfjQras7DfU-7" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="lULRKE1pPwfjQras7DfU-0" vertex="1">
+          <mxGeometry x="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lULRKE1pPwfjQras7DfU-8" value="Track" style="rounded=0;whiteSpace=wrap;html=1;" parent="lULRKE1pPwfjQras7DfU-0" vertex="1">
+          <mxGeometry x="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lULRKE1pPwfjQras7DfU-9" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="lULRKE1pPwfjQras7DfU-0" vertex="1">
+          <mxGeometry x="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-1" value="Inline Layer" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" parent="MVablnATqZSdwAEzU-RO-1" vertex="1">
+          <mxGeometry x="380" y="280" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-2" value="" style="group" parent="MVablnATqZSdwAEzU-RO-1" vertex="1" connectable="0">
+          <mxGeometry x="65" y="230" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-3" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-2" vertex="1">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-4" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-2" vertex="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-5" value="SRC" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-2" vertex="1">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-6" value="DST" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-2" vertex="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-7" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-2" vertex="1">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-8" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-2" vertex="1">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-9" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-2" vertex="1">
+          <mxGeometry x="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-10" value="Track" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-2" vertex="1">
+          <mxGeometry x="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-11" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-2" vertex="1">
+          <mxGeometry x="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-12" value="" style="group" parent="MVablnATqZSdwAEzU-RO-1" vertex="1" connectable="0">
+          <mxGeometry x="75" y="350" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-13" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-12" vertex="1">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-14" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-12" vertex="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-15" value="SRC" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-12" vertex="1">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-16" value="DST" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-12" vertex="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-17" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-12" vertex="1">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-18" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-12" vertex="1">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-19" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-12" vertex="1">
+          <mxGeometry x="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-20" value="Track" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-12" vertex="1">
+          <mxGeometry x="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-21" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-12" vertex="1">
+          <mxGeometry x="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-22" value="" style="group" parent="MVablnATqZSdwAEzU-RO-1" vertex="1" connectable="0">
+          <mxGeometry x="65" y="430" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-23" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-22" vertex="1">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-24" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-22" vertex="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-25" value="SRC" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-22" vertex="1">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-26" value="DST" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-22" vertex="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-27" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-22" vertex="1">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-28" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-22" vertex="1">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-29" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-22" vertex="1">
+          <mxGeometry x="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-30" value="Track" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-22" vertex="1">
+          <mxGeometry x="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-31" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-22" vertex="1">
+          <mxGeometry x="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-32" value="" style="group" parent="MVablnATqZSdwAEzU-RO-1" vertex="1" connectable="0">
+          <mxGeometry x="65" y="470" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-33" value="Rule Name" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-32" vertex="1">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-34" value="Rule Number" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-32" vertex="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-35" value="SRC" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-32" vertex="1">
+          <mxGeometry x="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-36" value="DST" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-32" vertex="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-37" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-32" vertex="1">
+          <mxGeometry x="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-38" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-32" vertex="1">
+          <mxGeometry x="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-39" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-32" vertex="1">
+          <mxGeometry x="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-40" value="Track" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-32" vertex="1">
+          <mxGeometry x="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJRhoohyOYlGKgeh7eDd-41" value="Install On" style="rounded=0;whiteSpace=wrap;html=1;" parent="iJRhoohyOYlGKgeh7eDd-32" vertex="1">
+          <mxGeometry x="640" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
